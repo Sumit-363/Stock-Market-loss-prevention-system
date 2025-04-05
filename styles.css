@@ -1,0 +1,88 @@
+/* General styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  /* Section styles */
+  section {
+    padding: 50px 0;
+  }
+  #intro {
+    background-color: #e6e6e6;
+  }
+  #features ul {
+    list-style: none;
+    margin-top: 20px;
+  }
+  #features li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+  }
+  #portfolio form {
+    margin-top: 20px;
+  }
+  #portfolio input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  #portfolio button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  #portfolio button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Result display */
+  #result {
+    margin-top: 20px;
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    display: none;
+  }
+  
+  /* Footer */
+  #contact {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loss Prevention System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Loss Prevention System for Stock Market</h1>
+      <nav>
+        <a href="#features">Features</a>
+        <a href="#portfolio">Portfolio Tracker</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <section id="intro">
+    <div class="container">
+      <h2>Protect Your Investments</h2>
+      <p>My Loss Prevention System helps you monitor your stock portfolio and minimize potential losses through Loss Calculation and Risk Assessment.</p>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="container">
+      <h2>Features</h2>
+      <ul>
+        <li>Loss Calculation</li>
+        <li>Risk Assessment</li>
+        <li>Portfolio Tracking</li>
+        <li>Simulated Stock Price</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="portfolio">
+    <div class="container">
+      <h2>Track Your Portfolio</h2>
+      <form id="portfolioForm">
+        <label for="stockSymbol">Stock Symbol (e.g., AAPL):</label>
+        <input type="text" id="stockSymbol" placeholder="Enter Stock Symbol" required>
+        <label for="shares">Number of Shares:</label>
+        <input type="number" id="shares" placeholder="Enter Number of Shares" required>
+        <label for="initialPrice">Initial Price:</label>
+        <input type="number" id="initialPrice" placeholder="Enter Initial Price" required>
+        <button type="submit">Calculate Loss</button>
+      </form>
+
+      <div id="result"></div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <p>&copy; 2025 Loss Prevention System. All rights reserved.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
